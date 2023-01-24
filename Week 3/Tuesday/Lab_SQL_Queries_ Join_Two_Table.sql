@@ -65,4 +65,4 @@ WHERE film_id = '';
 # 10. get the addresses that have NO customers, and ends with the letter "e"
 
 SELECT first_name, last_name, address.address  FROM customer RIGHT JOIN address ON customer.address_id=address.address_id
-WHERE address.address LIKE '%e' AND first_name IS NULL
+WHERE address.address LIKE '%e' AND first_name IS NULL;
